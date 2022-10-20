@@ -61,7 +61,7 @@ function App() {
             setCity(el.target.value)
           }} />
           {/* <input type="text" className='form-control' /> */}
-          <button className='btn btn-primary mx-2' type='submit' onClick={handleClick}>get temp</button>
+          <button className='btn btn-primary mx-2' type='submit' onClick={handleClick}>Get temp</button>
 
           
         </div>
