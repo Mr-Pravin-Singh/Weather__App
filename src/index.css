@@ -5,7 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("https://cdn.weatherapi.com/weather-widget/img/weatherapi-backgrounds/4_widget3.png"); 
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  
 }
+.card{
+  height: 100px;
+  background-color: rgb(201, 195, 195);
+}
+
+.whitee{
+  color: white;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
