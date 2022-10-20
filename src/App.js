@@ -57,7 +57,7 @@ function App() {
     <>
         <div className='container text-center my-2'>
           <h1 className='whitee'>Weather App</h1>
-          <input type="text" className='form' value={city} onChange={(el)=>{
+          <input type="text" className='form' placeholder='Enter City name' value={city} onChange={(el)=>{
             setCity(el.target.value)
           }} />
           {/* <input type="text" className='form-control' /> */}
