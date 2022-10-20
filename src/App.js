@@ -41,6 +41,10 @@ function App() {
         
       })
     })
+      .catch((error)=>{
+      console.log(error);
+    })
+    
   }
 
   const getTime = (stamp)=>{
