@@ -52,7 +52,7 @@ function App() {
   return (
     <>
         <div className='container text-center my-2'>
-          <h1 className='whitee'>Weather app in deg C</h1>
+          <h1 className='whitee'>Weather app</h1>
           <input type="text" className='form' value={city} onChange={(el)=>{
             setCity(el.target.value)
           }} />
