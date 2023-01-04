@@ -16,7 +16,7 @@ function ShowTemp({text}) {
                 <div className="col-md-4">
                     <div className="card">
                         <div className="card-body">
-                            <h5 className="card-title">Temp</h5>
+                            <h5 className="card-title">Feel Likes</h5>
                             <p className="card-text">{text.feels_like} °C</p>
                         </div>
                     </div>
